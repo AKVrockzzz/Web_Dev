@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        <u>
+            <strong>
+                HTML Forms
+            </strong>
+        </u>
+    </h1>
+
+    <!-- First Practice Pattern for HTML Forms -->
+     <form>
+        <label for="email">Enter Email ID</label>
+        <input type="text" id="email">
+        <br>
+        <label for="password">Enter Password</label>
+        <input type="text" id="password">
+        <br><br>
+        <input type="submit" value="Click Here"><br>
+     </form>
+    <hr>
+
+
+     <!-- Second Pattern for Create HTML Forms and in this pattern i use placeholder in input field -->
+      <form>
+            <label for="username">Username : </label>
+            <input type="text" name="username" placeholder="Enter your username"> <br>
+
+            <label for="password">Password : </label>
+            <input type="password" name="password" placeholder="Enter your password"><br>
+
+            <input type="submit" value="Click Me"><br>
+      </form><hr>
+
+
+      <!-- Now practice different type of element in HTML Forms  -->
+       <form>
+           <fieldset>
+            <legend>HTML Element Practice</legend>
+            <label for="datepicker">Choose Date: </label>
+            <input type="date" name="datepicker"><br><br>
+            <label for="dishes">Choose your Dish: </label>
+            <select name="dishes" id="selector1">
+                <option value="maggie">Maggie</option>
+                <option value="kurkure">Kurkure</option>
+                <option value="pizza">Pizza</option>
+            </select><br><br>
+            <textarea name="textArea1" id="textArea1" cols="30" rows="10" placeholder="Enter your text"></textarea><br><br>
+            <button>Click me</button>
+           </fieldset>
+           <br>
+       </form><hr>
+
+       <!-- Second Pattern for Create HTML Forms and in this pattern i use more form input element -->
+
+       <form>
+            <label for="textfield1">TextField: </label>
+            <input type="text" name="textfield1" id="textfield1">
+            <br>
+            <label for="button">My Channel: </label>
+            <button>Subscribe</button>
+            <br>
+            <label for="gender">Male: </label>
+            <input type="radio" name="male" id="gender">
+            
+            <label for="gender">Female: </label>
+            <input type="radio" name="female" id="gender">
+            
+            <label for="gender">Others: </label>
+            <input type="radio" name="others" id="gender">
+            <br>
+
+            <label for="chackbox1">English: </label>
+            <input type="checkbox" name="checkbox1" id="checkbox1">
+
+            <label for="checkbox2">Hindi: </label>
+            <input type="checkbox" name="checkbox2" id="checkbox2">
+            <br>
+
+            <label for="fileselect1">Uplode</label>
+            <input type="file" name="fileselect1" id="fileselect1">
+            <br><br>
+
+            <input type="image" name="imageButton1" id="imageButton1" alt="demon slayer" src="https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-111425258/111425258.jpg" width="300" height="150">
+       </form><br><br><br><hr>
+
+
+
+
+       <!-- Now we create zFirst proper form after do some mamy elements practice  -->
+        <form>
+            <h2>
+                <u>
+                    Event Registration
+                </u>
+            </h2>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"><br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="phone">Phone Number: </label>
+            <input type="tel" name="phone" id="phone"><br><br>
+
+            <label for="occupation">Occupation: </label>
+            <select name="occupation" id="occupation">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <fieldset>
+                <legend>Topic OF Interest</legend>
+                <label for="checkbox1">HTML</label>
+                <input type="checkbox" name="checkbox" id="checkbox1"><br>
+                <label for="checkbox1">CSS</label>
+                <input type="checkbox" name="checkbox" id="checkbox1"><br>
+                <label for="checkbox1">JavaScript</label>
+                <input type="checkbox" name="checkbox" id="checkbox1"><br>
+            </fieldset><br>
+
+            <label for="textarea2">Comments: </label><br>
+            <textarea name="textarea2" id="textarea2" cols="30" rows="10"></textarea><br><br>
+            <input type="submit" value="Register">
+        </form><br><hr><br>
+
+        <!-- Now we create Second proper form after do some mamy elements practice  -->
+        <form>
+            <h2>
+                <u>
+                    Job Application
+                </u>
+            </h2>
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"><br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="phone">Phone Number: </label>
+            <input type="tel" name="phone" id="phone"><br><br>
+
+            <label for="resume">Resume: </label>
+            <input type="file" name="resume" id="resume"><br><br>
+
+            <label for="counter">Experience (in years): </label>
+            <input type="number" name="counter" id="counter"  min="0" max="50"><br><br>
+
+            <fieldset>
+                <legend>Skills</legend>
+                <label for="checkbox1">HTML</label>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+                <label for="checkbox1">CSS</label>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+                <label for="checkbox1">JavaScript</label>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+            </fieldset><br><br>
+
+            <label for="education">Higher Education: </label>
+            <select name="education" id="education">
+                <option value="school">High School</option>
+                <option value="associate">Associate Degree</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master Degree</option>
+                <option value="phd">PhD</option>
+            </select><br><br>
+
+            <fieldset>
+                <legend>Availability: </legend>
+                <label for="radio1">FullTime: </label>
+                <input type="radio" name="radio1" id="radio1"><br>
+                <label for="radio2">FullTime: </label>
+                <input type="radio" name="radio1" id="radio2"><br>
+            </fieldset><br><br>
+
+            <label for="textarea2">Additional Comments: </label><br>
+            <textarea name="textarea2" id="textarea2" cols="30" rows="10"></textarea><br><br>
+
+            <input type="submit" value="Submit Application">
+        </form>
+</body>
+</html>
