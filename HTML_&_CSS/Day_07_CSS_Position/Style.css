@@ -1,0 +1,36 @@
+.container {
+    background-color: beige;
+    border: 1px solid black;
+    height: 8000px;
+    position: relative;
+}
+
+img {
+    margin: 10px;
+}
+
+/* .image2 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+} */
+
+/* .image2 {
+    position:absolute;
+    top: 100px;
+    left: 100px;
+} */
+
+.image4 {
+    position: fixed;
+}
+
+.image3 {
+    position : sticky;
+    top: 100px;
+}
+
+.box {
+    background-color: aquamarine;
+    height: 5000px;
+}

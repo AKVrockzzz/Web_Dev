@@ -1,0 +1,24 @@
+#img1 {
+    border: 2px solid black;
+    float: right;
+}
+
+#img2 {
+    border: 2px solid black;
+    float: right;
+    clear: right;
+}
+
+.box {
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 2px;
+    border: 1px solid black;
+    float: left;
+}
