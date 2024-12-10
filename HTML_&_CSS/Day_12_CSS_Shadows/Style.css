@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    background-color: beige;
+    height: 650px;
+    border: 3px solid black;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: cadetblue;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    /* box-shadow: 10px 15px red; */
+    /* box-shadow: 10px 15px 5px grey; */
+    /* box-shadow: 10px 15px 15px 14px grey; */
+}
+
+#head1 {
+    /* text-shadow: 10px 5px 5px white; */
+    /* text-shadow:white 5px 6px 4px; */
+    text-shadow:white 10px 15px;
+}

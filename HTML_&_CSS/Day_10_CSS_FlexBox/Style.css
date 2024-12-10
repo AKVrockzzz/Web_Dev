@@ -1,0 +1,38 @@
+.container {
+    background-color: beige;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: center;
+    /* align-items: start; */
+    align-content: center;
+}
+
+.box {
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    margin: 4px;
+    padding: 4px;
+}
+
+#box1 {
+    background-color: blueviolet;
+    order: 500;
+}
+
+#box2 {
+    background-color: orange;
+}
+
+#box3 {
+    background-color: aqua;
+}
+
+#box4 {
+    background-color: cadetblue;
+    order: -1;
+}
