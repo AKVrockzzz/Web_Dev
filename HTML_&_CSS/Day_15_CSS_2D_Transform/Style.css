@@ -1,3 +1,10 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .box {
     border: 2px solid black;
     width: 400px;
@@ -6,9 +13,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    transition: all 1s linear;
 }
 
 p {
     font-size: 30px;
+}
+
+.box:hover {
+    /* transform: rotateX(45deg); */
+    /* transform: scale(1.5);
+    transform: rotate(-45deg); */
+    transform: translate(300px, 50px);
 }
