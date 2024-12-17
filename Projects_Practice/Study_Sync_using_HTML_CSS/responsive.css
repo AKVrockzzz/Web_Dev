@@ -1,0 +1,13 @@
+@media screen and (max-width:800px) {
+    .nav-menu-btn {
+        display: block;
+    }
+
+    .contact-btn {
+        display: none;
+    }
+
+    .nav-items {
+        display: none;
+    }
+}
