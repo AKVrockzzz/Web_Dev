@@ -6,6 +6,9 @@
     --background-color: #ffffff;
     --text-color: #333333;
     --link-color: #ffa610;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
 }
 
 * {
@@ -18,14 +21,13 @@
 body {
     height: 100vh;
     background-color: #003135;
-    padding: 0.1rem;
     text-align: center;
 }
 
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     background-color: var(--background-color);
     border-radius: 0.375rem;
 }
@@ -55,7 +57,7 @@ body {
 
 .nav-items {
     display: flex;
-    gap: 1.5rem;
+    gap: 2.5rem;
 }
 
 .nav-items-links {
@@ -70,7 +72,7 @@ body {
     transform: scale(1.1);
 }
 
-.contact-btn {
+.contact-btn{
     font-size: 1rem;
     font-weight: 600;
     background-color: var(--primary-color);
@@ -100,5 +102,118 @@ body {
 
 .nav-menu-icon:hover {
     transform: scale(1.1);
+}
+
+
+/* Hero Section  */
+
+.hero-section-container {
+    display: flex;
+    text-align: left;
+    padding: 0.6rem;
+    margin-top: 8%;
+}
+
+.hero-section-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    animation-name: sectionLeftToRight;
+    margin-top: 3%;
+}
+
+.left-section-label {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.left-section-title {
+    font-size: 3.8rem;
+}
+
+.left-section-description {
+    font-size: 1.1rem;
+    color: var(--gray);
+    width: 78%;
+}
+
+.hero-section-start-btn, .hero-section-tour-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    transition: 0.3s;
+}
+
+.hero-section-tour-btn {
+    background-color: var(--dark-gray);
+}
+
+.hero-section-start-btn:hover {
+    background-color: #e99904;
+    transform: scale(1.1);
+}
+
+.hero-section-tour-btn:hover {
+    background-color: #6d6b6b;
+    transform: scale(1.1);
+}
+
+.section-left-btn {
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.5rem;
+}
+
+.hero-section-right {
+    width: 50%;
+}
+
+.hero-section-right img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header Company Section  */
+
+.header-company-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 8%;
+}
+
+.company-title {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.compamy-logo-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: var(--light-gray);
+    gap: 3.6rem;
+    padding: 1.8rem 2.5rem;
+    border-radius: 0.625rem;
+
+}
+
+.company-logo {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.company-logo img {
+    height: 1.56rem;
 }
 
