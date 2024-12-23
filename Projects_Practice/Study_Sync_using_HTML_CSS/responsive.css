@@ -5,6 +5,20 @@
         grid-template-columns: repeat(2,1fr);
         gap: 3.6rem;
     }
+
+    .features-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /* News Letter Section  */
+
+    .news-title {
+        font-size: 2rem;
+    }
+
+    .footer-section-right-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 
@@ -57,5 +71,32 @@
         justify-content: center;
     }
 
-    
+    /* News Letter Section  */
+
+    .news-left {
+        display: none;
+    }
+
+    .news-right {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width:1022px) {
+    /* Footer Section  */
+    .footer-section-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section-left {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .footer-section-right-grid {
+        width: 100%;
+    }
 }
